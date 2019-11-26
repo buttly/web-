@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    height: 100%;
+    width:100%;
+}
+body{
+    height: 100%;
+    width:100%;
+}
+.box{
+    height: 100%;
+    width: 100%;
+} 
+.img{
+    display: none;
+}
+.one{
+    height: 100%;
+    width: 100%;
+    background: url(../image/微信图片_201911231109012.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.two{
+    height: 100%;
+    width: 100%;
+    background: url(../image/微信图片_201911231109013.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.three{
+    height: 100%;
+    width: 100%;
+    background: url(../image/微信图片_201911231109014.jpg) no-repeat center;
+    background-size: 100% 100%;
+
+}

@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-display: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.image{
+    width: 50%;
+    height: 50%;
+}
+.one{
+    background: url(../image/微信图片_2019112311090211.jpg) no-repeat center;
+    background-size: 400px 300px;
+}
+.two{
+    background: url(../image/微信图片_2019112311090214.jpg) no-repeat center;
+    background-size: 400px 300px;
+}
+.three{
+    background:url(../image/微信图片_2019112311090215.jpg) no-repeat center;
+    background-size:400px 300px;
+}
+.four{
+    background:url(../image/微信图片_201911231109022.jpg) no-repeat center;
+    background-size:400px 300px;
+}
+.content{
+      font-size: 30px;
+      color: rgba(247, 30, 30, 0.58);
+}
+.hov{
+    height: 100%;
+    width: 100%;
+}
+.hov-content{
+    float: right;
+    width: 97px;
+    word-wrap: break-word;
+    color: rgb(214, 42, 157);
+    display:none;
+}
+.hov:hover .hov-content{
+    display: block;
+}
+.rr{
+    float: left;
+}
